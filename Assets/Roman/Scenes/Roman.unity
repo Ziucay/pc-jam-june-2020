@@ -505,6 +505,8 @@ MonoBehaviour:
     type: 3}
   healTower: {fileID: 3304551882770913228, guid: 38c492cfe1d624288b081e085f76c420,
     type: 3}
+  slowerTower: {fileID: 3304551882770913228, guid: 91efdaf8a93ad41d1be4981e001c1191,
+    type: 3}
 --- !u!4 &594101211
 Transform:
   m_ObjectHideFlags: 0

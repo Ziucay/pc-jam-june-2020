@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3059520254724312198}
   - component: {fileID: 6134558507340476795}
   - component: {fileID: 6996915037687305798}
-  - component: {fileID: 950362865241691215}
+  - component: {fileID: 2676886450646096997}
   m_Layer: 0
   m_Name: Attacker
   m_TagString: Untagged
@@ -70,7 +70,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 4
---- !u!114 &950362865241691215
+--- !u!114 &2676886450646096997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -79,11 +79,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2305013510856765753}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 436744cba0c384407b5b7a3d50776686, type: 3}
+  m_Script: {fileID: 11500000, guid: 332b7bd05c1f343e5b7f84493fa528f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 5
-  attackPoints: 20
+  radius: 4
+  slowMovement: 0.5
   laser: {fileID: 7140647788864471115}
 --- !u!1 &3304551882770913228
 GameObject:
@@ -97,9 +97,9 @@ GameObject:
   - component: {fileID: 3304551882770913217}
   - component: {fileID: 6513600822283964699}
   - component: {fileID: 4769333495450625358}
-  - component: {fileID: 4493839515666895151}
+  - component: {fileID: 6987463009643646979}
   m_Layer: 0
-  m_Name: AttackTower
+  m_Name: SlowerTower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,12 +113,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3304551882770913228}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1442106, y: 3.1757896, z: 0}
+  m_LocalPosition: {x: 0.8821056, y: -2.0610528, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3059520254724312198}
   - {fileID: 1006276988416445302}
-  - {fileID: 3689616272182043790}
+  - {fileID: 3160953344021244450}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -217,7 +217,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4493839515666895151
+--- !u!114 &6987463009643646979
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -229,9 +229,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848944b18b1c24272a51ec6b0b8f0d29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHP: 100
+  currentHP: 20
   maxHP: 100
-  healthBar: {fileID: 7453673321592029131}
+  healthBar: {fileID: 9194402412991689063}
 --- !u!1 &7344415061465091789
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f56b90996b04b15b3fda93e210c261, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &8794039636881705317
+--- !u!1001 &7125649356498880457
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -395,17 +395,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d16aa5eec98c476c8cdbbd150108b06, type: 3}
---- !u!4 &3689616272182043790 stripped
+--- !u!4 &3160953344021244450 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5277816374333500907, guid: 7d16aa5eec98c476c8cdbbd150108b06,
     type: 3}
-  m_PrefabInstance: {fileID: 8794039636881705317}
+  m_PrefabInstance: {fileID: 7125649356498880457}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7453673321592029131 stripped
+--- !u!114 &9194402412991689063 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2124133396673623726, guid: 7d16aa5eec98c476c8cdbbd150108b06,
     type: 3}
-  m_PrefabInstance: {fileID: 8794039636881705317}
+  m_PrefabInstance: {fileID: 7125649356498880457}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1

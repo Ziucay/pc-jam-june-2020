@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+
 public class Laser : MonoBehaviour
 {
     private float scaleCoefficient;
@@ -14,16 +15,16 @@ public class Laser : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    public void DirectLaser(Vector3 towerPosition, Vector3 enemyPosition)
+    public void DirectLaser(Vector3 fromPosition, Vector3 toPosition)
     {
         gameObject.SetActive(true);
-        
-        float deltaX = towerPosition.x - enemyPosition.x;
-        float deltaY = towerPosition.y - enemyPosition.y;
+
+        float deltaX = fromPosition.x - toPosition.x;
+        float deltaY = fromPosition.y - toPosition.y;
 
         // Change position. Place between the tower and an enemy. 
-        transform.position = new Vector3((towerPosition.x + enemyPosition.x) / 2,
-            (towerPosition.y + enemyPosition.y) / 2, 0);
+        transform.position = new Vector3((fromPosition.x + toPosition.x) / 2,
+            (fromPosition.y + toPosition.y) / 2, 0);
 
         // Change the scale. Its length is equal to the distance between the tower and an enemy. 
         Vector3 newScale = transform.localScale;
