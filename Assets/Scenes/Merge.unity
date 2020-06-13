@@ -33908,6 +33908,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1342656212867467352, guid: 3c29a05f714a2cb41b5f72ecd88b74ea,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1991268485
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342656212867467352, guid: 3c29a05f714a2cb41b5f72ecd88b74ea,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1342656212867467354, guid: 3c29a05f714a2cb41b5f72ecd88b74ea,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34086,7 +34096,6 @@ GameObject:
   - component: {fileID: 1335274167}
   - component: {fileID: 1335274166}
   - component: {fileID: 1335274168}
-  - component: {fileID: 1335274169}
   m_Layer: 0
   m_Name: CastleGenerator
   m_TagString: Untagged
@@ -34150,18 +34159,6 @@ MonoBehaviour:
     type: 3}
   slowerTower: {fileID: 3304551882770913228, guid: 21b60b9e8b4e8489aa1e7a52c8fe57d4,
     type: 3}
---- !u!114 &1335274169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335274165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0a989e8642704e2797e3b79330e2a91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1568464565
 GameObject:
   m_ObjectHideFlags: 0

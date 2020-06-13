@@ -8,6 +8,9 @@ TagManager:
   - Ally
   - Static
   - Repairable
+  - Wall
+  - Tower
+  - Block
   layers:
   - Default
   - TransparentFX
