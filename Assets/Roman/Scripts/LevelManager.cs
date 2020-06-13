@@ -16,14 +16,14 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))
         {
             Vector3 towerPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             towerPosition.z = 0;
             towerManager.AddAttackTower(towerPosition);
         }
 
-        if (Input.GetMouseButtonDown(2))
+        /*if (Input.GetMouseButtonDown(2))
         {
             Vector3 towerPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             towerPosition.z = 0;
@@ -35,6 +35,6 @@ public class LevelManager : MonoBehaviour
             Vector3 towerPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             towerPosition.z = 0;
             towerManager.AddSlowerTower(towerPosition);
-        }
+        }*/
     }
 }

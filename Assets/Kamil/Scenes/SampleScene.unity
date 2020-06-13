@@ -190,7 +190,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -61232843
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -3557,6 +3557,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3572,6 +3573,24 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7877e32ac7a9490429335de9bf2f4a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heightTrigger: 0.1
+  widthTrigger: 0.1
+  speed: 0.5
+  zoomSpeed: 3
+  ZoomBoundLeft: 1
+  ZoomBoundRight: 10
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3655,20 +3674,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 887468256}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7215a495b5849e4eae7d4335f50c01d, type: 3}
+  m_Script: {fileID: 11500000, guid: 49e09412abad11347aa43c1089a57a68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallPrefabWall: {fileID: 5925917538340725007, guid: 1f74cbd8ce17bb044be8f12ef3fe2bd7,
+  wallPrefabWall: {fileID: 5925917538340725007, guid: e6e7765888461b840869aca0065d981b,
     type: 3}
-  wallPrefabWallBottomLeft: {fileID: 6448037419632394662, guid: b68026f2d959639419c025a22e57a4e0,
+  wallPrefabWallBottomLeft: {fileID: 6448037419632394662, guid: 8795a11961bc8ff4f8d97b11879c435f,
     type: 3}
-  wallPrefabWallBottomRight: {fileID: 7084005964693216723, guid: 3002defde4e25ff48b9422247afe5187,
+  wallPrefabWallBottomRight: {fileID: 7084005964693216723, guid: ebedd2a19811bce4e9a721d30ede7121,
     type: 3}
-  wallPrefabWallReverse: {fileID: 1557919638688900724, guid: bce2fd6de063ae24eb1d21cc04d34af8,
+  wallPrefabWallReverse: {fileID: 1557919638688900724, guid: 62ebb6cbbad338e46b6836a2020e8346,
     type: 3}
-  wallPrefabWallTopLeft: {fileID: 7815715017543643737, guid: 11a841eae42559e40b44892fd680f0d1,
+  wallPrefabWallTopLeft: {fileID: 7815715017543643737, guid: e1d7b7b642d7ef3468d38e700835513e,
     type: 3}
-  wallPrefabWallTopRight: {fileID: 5716295743328487811, guid: 31a7a632a929d7f44b0ab471aed07c4b,
+  wallPrefabWallTopRight: {fileID: 5716295743328487811, guid: 8fd5662fbd490784b8874abae9b6b359,
     type: 3}
 --- !u!4 &887468258
 Transform:

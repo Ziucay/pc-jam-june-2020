@@ -1,0 +1,449 @@
+fileFormatVersion: 2
+guid: ab4561570f991493c93212162a16b865
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5916217038081576687
+    second: AttackTower
+  - first:
+      213: -1195855884308508728
+    second: AttackTower_1
+  - first:
+      213: -6996501507938589446
+    second: AttackTower_2
+  - first:
+      213: -3674800274547063314
+    second: AttackTower_3
+  - first:
+      213: -979284206996311239
+    second: AttackTower_4
+  - first:
+      213: 6384786761360591268
+    second: AttackTower_5
+  - first:
+      213: 8672503071204255098
+    second: AttackTower_6
+  - first:
+      213: 5883745927922402389
+    second: AttackTower_7
+  - first:
+      213: -3996372036610920483
+    second: AttackTower_8
+  - first:
+      213: -1858632729530943819
+    second: AttackTower_9
+  - first:
+      213: 4864674459820905522
+    second: AttackTower_10
+  - first:
+      213: 8750076777051335864
+    second: AttackTower_11
+  - first:
+      213: 8283507280495620192
+    second: AttackTower_12
+  - first:
+      213: -5700789360618438993
+    second: AttackTower_13
+  - first:
+      213: 3050504536370307077
+    second: AttackTower_14
+  - first:
+      213: 8777359445308001420
+    second: AttackTower
+  - first:
+      213: -7624320327237727546
+    second: AttackTower_1
+  - first:
+      213: -2925029488768681584
+    second: AttackTower_2
+  - first:
+      213: 5034222586725476058
+    second: AttackTower_3
+  - first:
+      213: 6422861016009359634
+    second: AttackTower_4
+  - first:
+      213: 8812676331443470641
+    second: AttackTower_5
+  - first:
+      213: 5583010169582877762
+    second: AttackTower_6
+  - first:
+      213: -1867214641535267368
+    second: AttackTower_7
+  - first:
+      213: -6156716910787780070
+    second: AttackTower_8
+  - first:
+      213: 9027584447219936379
+    second: AttackTower_9
+  - first:
+      213: 3088154231441245682
+    second: AttackTower_10
+  - first:
+      213: 6980906694692038496
+    second: AttackTower_11
+  - first:
+      213: 6819927970989189856
+    second: AttackTower_12
+  - first:
+      213: 2575611065546864553
+    second: AttackTower_13
+  - first:
+      213: -3111531561994397791
+    second: AttackTower_14
+  - first:
+      213: -2810930960998652185
+    second: AttackTower_15
+  - first:
+      213: -3448140813760759451
+    second: AttackTower_16
+  - first:
+      213: 2511641233083720158
+    second: AttackTower_17
+  - first:
+      213: -8998444773967905877
+    second: AttackTower_18
+  - first:
+      213: -6837271658508176344
+    second: AttackTower_19
+  - first:
+      213: 682765149575887461
+    second: AttackTower_20
+  - first:
+      213: 2902497282959856712
+    second: AttackTower_21
+  - first:
+      213: 5873510030416531552
+    second: AttackTower_22
+  - first:
+      213: -4433695008598057525
+    second: AttackTower_23
+  - first:
+      213: 1585002952859547306
+    second: AttackTower_24
+  - first:
+      213: -6171273357687567809
+    second: AttackTower_25
+  - first:
+      213: -5218102109024373550
+    second: AttackTower_26
+  - first:
+      213: 4964761192048619108
+    second: AttackTower_27
+  - first:
+      213: -1668939041462157338
+    second: AttackTower_28
+  - first:
+      213: 2096713629928378249
+    second: AttackTower_29
+  - first:
+      213: 5071225746859787170
+    second: AttackTower_30
+  - first:
+      213: -9083783708266368305
+    second: AttackTower_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AttackTower
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cc08b39e17fc970800000000000000
+      internalID: 8777359445308001420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackTower_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf0b3db867776fe0800000000000000
+      internalID: -1195855884308508728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackTower_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4e5d492fe67ee90800000000000000
+      internalID: -6996501507938589446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackTower_3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee54d17ce9c700dc0800000000000000
+      internalID: -3674800274547063314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackTower_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933b5d3c332e862f0800000000000000
+      internalID: -979284206996311239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackTower_5
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9c38d3bb15b9850800000000000000
+      internalID: 6384786761360591268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackTower_6
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a752d98289bea5870800000000000000
+      internalID: 8672503071204255098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackTower_7
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554477e7fb347a150800000000000000
+      internalID: 5883745927922402389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

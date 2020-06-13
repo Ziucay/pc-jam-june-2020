@@ -190,7 +190,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -61232843
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -3670,6 +3670,8 @@ MonoBehaviour:
     type: 3}
   wallPrefabWallTopRight: {fileID: 5716295743328487811, guid: 31a7a632a929d7f44b0ab471aed07c4b,
     type: 3}
+  mousePos: {x: 0, y: 0, z: 0}
+  objectPos: {x: 0, y: 0, z: 0}
 --- !u!4 &887468258
 Transform:
   m_ObjectHideFlags: 0
