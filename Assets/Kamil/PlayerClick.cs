@@ -13,6 +13,14 @@ public class PlayerClick : MonoBehaviour
     [SerializeField] GameObject wallPrefabWallTopLeft;
     [SerializeField] GameObject wallPrefabWallTopRight;
 
+    public Sprite wallBlockSprite;
+    public Sprite attackTowerSprite;
+    public Sprite healTowerSprite;
+    public Sprite slowerTowerSprite;
+
+    public GameObject transparentBlock;
+    private SpriteRenderer spriteRendererTransparentBlock;
+
     // Type of somme unit.
     // Player can push one of these buttons 1 - 9, 0
     // to chose the element to place on the map.
@@ -33,6 +41,7 @@ public class PlayerClick : MonoBehaviour
     void Start()
     {
         towerManager = FindObjectOfType<TowerManager>();
+        spriteRendererTransparentBlock = transparentBlock.GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -42,17 +51,56 @@ public class PlayerClick : MonoBehaviour
 
     private void CheckInput()
     {
+        Vector3 objectPos = GetObjectPosition(GetMousePosition());
+
+        // Show possible unit which can be set
+        ShowTransparentBlock(objectPos);
+
         // Set new unit
-        CheckMouseClick();
+        CheckMouseClick(objectPos);
 
         // Switch the unit type
         CheckUnitSelector();
     }
 
-    private void CheckMouseClick()
+    // Полупрозрачная клетка, показывающая, что сюда можно поставить блок
+    private void ShowTransparentBlock(Vector3 objectPos)
+    {
+        transparentBlock.transform.position = objectPos;
+
+        switch (unitType)
+        {
+            case 1:
+                spriteRendererTransparentBlock.sprite = wallBlockSprite;
+                break;
+            case 2:
+                spriteRendererTransparentBlock.sprite = attackTowerSprite;
+                break;
+            case 3:
+                spriteRendererTransparentBlock.sprite = healTowerSprite;
+                break;
+            case 4:
+                spriteRendererTransparentBlock.sprite = slowerTowerSprite;
+                break;
+            case 5:
+                break;
+            case 6:
+                break;
+            case 7:
+                break;
+            case 8:
+                break;
+            case 9:
+                break;
+            case 0:
+                break;
+        }
+    }
+
+    private void CheckMouseClick(Vector3 objectPos)
     {
         if (Input.GetMouseButton(0))
-        { 
+        {
             Vector3 objectPos = GetObjectPosition(GetMousePosition());
             if (CanPlaceHere(objectPos))
             {
@@ -87,6 +135,7 @@ public class PlayerClick : MonoBehaviour
             unitType = 4;
         }
 
+        /*
         if (Input.GetKeyDown(KeyCode.Keypad5) || Input.GetKeyDown(KeyCode.Alpha5))
         {
             unitType = 5;
@@ -116,6 +165,7 @@ public class PlayerClick : MonoBehaviour
         {
             unitType = 0;
         }
+        */
     }
 
     private Vector3 GetMousePosition()
