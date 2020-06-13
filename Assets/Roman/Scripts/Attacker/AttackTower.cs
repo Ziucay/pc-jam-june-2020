@@ -35,10 +35,12 @@ public class AttackTower : MonoBehaviour
             Debug.Log(objectsInScope.Count);
             if (currentTarget != null)
             {
+                laser.DirectLaser(transform.position, currentTarget.transform.position);
                 currentTarget.GetComponent<Health>().DecreaseHealth(damage);
             }
             else
             {
+                laser.DisableLaser();
                 float minDist = float.MaxValue;
                 GameObject nearestObject = null;
                 foreach (var i in objectsInScope)
