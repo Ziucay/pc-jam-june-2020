@@ -12,6 +12,12 @@ public class PlayerClick : MonoBehaviour
     [SerializeField] GameObject wallPrefabWallReverse;
     [SerializeField] GameObject wallPrefabWallTopLeft;
     [SerializeField] GameObject wallPrefabWallTopRight;
+    [SerializeField] GameObject wallPrefabTripleTop;
+    [SerializeField] GameObject wallPrefabTripleBot;
+    [SerializeField] GameObject wallPrefabTripleLeft;
+    [SerializeField] GameObject wallPrefabTripleRight;
+    [SerializeField] GameObject wallPrefabQuadro;
+    
     private Vector3 mousePos;
     private Vector3 objectPos;
     
@@ -64,6 +70,21 @@ public class PlayerClick : MonoBehaviour
                 case(6):
                     Instantiate(wallPrefabWallBottomRight, objectPos, Quaternion.identity);
                     break;
+                case(7):
+                    Instantiate(wallPrefabTripleTop, objectPos, Quaternion.identity);
+                    break;
+                case(8):
+                    Instantiate(wallPrefabTripleBot, objectPos, Quaternion.identity);
+                    break;
+                case(9):
+                    Instantiate(wallPrefabTripleLeft, objectPos, Quaternion.identity);
+                    break;
+                case(10):
+                    Instantiate(wallPrefabTripleRight, objectPos, Quaternion.identity);
+                    break;
+                case(11):
+                    Instantiate(wallPrefabQuadro, objectPos, Quaternion.identity);
+                    break;
             }
     }
     
@@ -113,6 +134,29 @@ public class PlayerClick : MonoBehaviour
 
         }
 
+        if (isTop & isBottom & isLeft & isRight)
+        {
+            return 11;
+        }
+        if (isTop & isBottom & isLeft)
+        {
+            return 10;
+        }
+        
+        if (isTop & isBottom & isRight)
+        {
+            return 9;
+        }
+        
+        if (isLeft & isRight & isTop)
+        {
+            return 8;
+        }
+        if (isLeft & isRight & isBottom)
+        {
+            return 7;
+        }
+        
         if (isTop && isLeft)
         {
             return 6;
