@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5502965197042499229}
   m_Layer: 0
   m_Name: ReverseWall
-  m_TagString: Repairable
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,7 +97,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dmdSrpite: {fileID: 0}
-  hp: 4
 --- !u!114 &-3494974746352966
 MonoBehaviour:
   m_ObjectHideFlags: 0
