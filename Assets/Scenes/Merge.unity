@@ -33864,8 +33864,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7877e32ac7a9490429335de9bf2f4a27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heightTrigger: 0.1
-  widthTrigger: 0.1
+  EnableRTSMove: 0
+  heightTrigger: 0
+  widthTrigger: 0
   speed: 0.5
   zoomSpeed: 2
   ZoomBoundLeft: 2
@@ -33967,6 +33968,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainTarget
       objectReference: {fileID: 0}
+    - target: {fileID: 1342656212867467357, guid: 3c29a05f714a2cb41b5f72ecd88b74ea,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ally
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c29a05f714a2cb41b5f72ecd88b74ea, type: 3}
 --- !u!1 &1210537376
@@ -34013,7 +34019,7 @@ MonoBehaviour:
   enemies:
   - {fileID: 8240033578168154690, guid: c15fe71a7aaba314aa59145455fc0537, type: 3}
   spawnRate: 10
-  spawnCount: 3
+  spawnCount: 10
 --- !u!4 &1210537378
 Transform:
   m_ObjectHideFlags: 0
@@ -34138,11 +34144,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d74cf7d93654671b70c231989cab86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTower: {fileID: 3304551882770913228, guid: a0ea7b6d4b5274932b9803ebbcbaee3e,
+  attackTower: {fileID: 3304551882770913228, guid: dcbb61f61ba134257b8ee6e8c8231594,
     type: 3}
-  healTower: {fileID: 3304551882770913228, guid: 38c492cfe1d624288b081e085f76c420,
+  healTower: {fileID: 3304551882770913228, guid: 2e5d1a24e839246db8e697aad61dbf70,
     type: 3}
-  slowerTower: {fileID: 3304551882770913228, guid: 91efdaf8a93ad41d1be4981e001c1191,
+  slowerTower: {fileID: 3304551882770913228, guid: 21b60b9e8b4e8489aa1e7a52c8fe57d4,
     type: 3}
 --- !u!114 &1335274169
 MonoBehaviour:

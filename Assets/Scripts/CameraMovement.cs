@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
+    public bool EnableRTSMove;
     //then we move camera by mouse(percentage)
     [Range(0, 0.5f)]
     public float heightTrigger;
@@ -22,7 +23,7 @@ public class CameraMovement : MonoBehaviour
     private int ZoomBoundRight;
     private string zoom = "Mouse ScrollWheel";
     Camera camera;
-
+    
     void Start()
     {
         camera = GetComponent<Camera>();
@@ -53,7 +54,10 @@ public class CameraMovement : MonoBehaviour
         }
         if ((camera.orthographicSize + Input.GetAxisRaw(zoom) * zoomSpeed) >= ZoomBoundLeft && (camera.orthographicSize + Input.GetAxisRaw(zoom) * zoomSpeed) <= ZoomBoundRight)
         camera.orthographicSize += Input.GetAxisRaw(zoom) * zoomSpeed;
-        mouseMove = mouseMove * speed;
+        if (EnableRTSMove)
+            mouseMove = mouseMove * speed;
+        else
+            mouseMove = Vector3.zero;
         transform.position = transform.position + move + mouseMove;
     }
 }

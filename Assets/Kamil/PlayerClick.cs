@@ -71,7 +71,7 @@ public class PlayerClick : MonoBehaviour
     bool CanPlaceHere(Vector3 pos)
     {
         GameObject[] walls;
-        walls = GameObject.FindGameObjectsWithTag("Wall");
+        walls = GameObject.FindGameObjectsWithTag("Repairable");
         foreach (GameObject wall in walls)
         {
             if (wall.transform.position.x == pos.x && wall.transform.position.y == pos.y)
@@ -86,7 +86,7 @@ public class PlayerClick : MonoBehaviour
     int CheckNeighbours(Vector3 pos)
     {
         GameObject[] walls;
-        walls = GameObject.FindGameObjectsWithTag("Wall");
+        walls = GameObject.FindGameObjectsWithTag("Repairable");
         bool isLeft = false;
         bool isRight = false;
         bool isTop = false;
@@ -145,7 +145,7 @@ public class PlayerClick : MonoBehaviour
     void updateImage()
     {
         GameObject[] walls;
-        walls = GameObject.FindGameObjectsWithTag("Wall");
+        walls = GameObject.FindGameObjectsWithTag("Repairable");
         foreach (GameObject wall in walls)
         {
             Vector2 wallPos;
