@@ -68,7 +68,6 @@ public class AttackTower : MonoBehaviour
         if (other.tag == "Enemy")
         {
             //AttackObject(other.gameObject);
-            Debug.Log("Enemy spotted");
             objectsInScope.Add(other.gameObject);
         }
     }

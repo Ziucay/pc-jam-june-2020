@@ -52,7 +52,7 @@ public class PlayerClick : MonoBehaviour
     private void CheckMouseClick()
     {
         if (Input.GetMouseButton(0))
-        {
+        { 
             Vector3 objectPos = GetObjectPosition(GetMousePosition());
             if (CanPlaceHere(objectPos))
             {
