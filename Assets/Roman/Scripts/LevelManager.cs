@@ -23,14 +23,14 @@ public class LevelManager : MonoBehaviour
             towerManager.AddAttackTower(towerPosition);
         }
 
-        if (Input.GetMouseButtonDown(2))
+        if (Input.GetMouseButtonDown(1))
         {
             Vector3 towerPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             towerPosition.z = 0;
             towerManager.AddHealTower(towerPosition);
         }
 
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(2))
         {
             Vector3 towerPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             towerPosition.z = 0;
