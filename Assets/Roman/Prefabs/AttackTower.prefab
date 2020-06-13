@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 6513600822283964699}
   - component: {fileID: 4769333495450625358}
   - component: {fileID: 4493839515666895151}
+  - component: {fileID: 4918824414286508932}
   m_Layer: 0
   m_Name: AttackTower
   m_TagString: Untagged
@@ -232,6 +233,21 @@ MonoBehaviour:
   currentHP: 100
   maxHP: 100
   healthBar: {fileID: 7453673321592029131}
+  healthScript: {fileID: 0}
+--- !u!114 &4918824414286508932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3304551882770913228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31fc8ccbb5c1cd34d935881441fbdd75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
 --- !u!1 &7344415061465091789
 GameObject:
   m_ObjectHideFlags: 0

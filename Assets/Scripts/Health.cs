@@ -7,11 +7,9 @@ using UnityEngine.EventSystems;
 public class Health : MonoBehaviour
 {
     public delegate void HealthHandler();
-    public static event HealthHandler OnHpIncreased, OnHpDecreased, OnDeath;
-    [SerializeField]
-    private int health;
-    [SerializeField]
-    private int maxHealth;
+    public event HealthHandler OnHpIncreased, OnHpDecreased, OnDeath;
+    public int health;
+    public int maxHealth;
     void Start()
     {
         

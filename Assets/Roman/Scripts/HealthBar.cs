@@ -14,16 +14,24 @@ public class HealthBar : MonoBehaviour
     private SpriteRenderer spriteRendererHeart2;
     private SpriteRenderer spriteRendererHeart3;
 
+    private Health health;
+
     void Start()
     {
         spriteRendererHeart1 = heart1.GetComponent<SpriteRenderer>();
         spriteRendererHeart2 = heart2.GetComponent<SpriteRenderer>();
         spriteRendererHeart3 = heart3.GetComponent<SpriteRenderer>();
+
+        health = GetComponent<Health>();
     }
 
     // Change the icon depending on the health.
-    public void UpdateHealthBar(float currentHP, float maxHP)
+    public void UpdateHealthBar()
     {
+        float currentHP = health.health;
+        float maxHP = health.maxHealth;
+
+
         float percentageHP = 100 * currentHP / maxHP;
 
         if (percentageHP > 85)
