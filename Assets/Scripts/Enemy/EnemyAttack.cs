@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
+    public int damage;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Enemy"))
@@ -21,7 +22,6 @@ public class EnemyAttack : MonoBehaviour
 
     private void Attack(GameObject ally)
     {
-        Destroy(ally);
-        //Need HP system
+        ally.GetComponent<Health>().DecreaseHealth(damage);
     }
 }
