@@ -13,7 +13,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/OverlapObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Workers/WorkerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Workers/FindNewPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Workers/ClickOnWoker.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -21,6 +24,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/OverlapObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Workers/WorkerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Workers/ClickOnWoker.cs" />
       </list>
     </option>
   </component>
@@ -64,6 +69,7 @@
       <updated>1591956695356</updated>
       <workItem from="1591956705691" duration="13289000" />
       <workItem from="1592030105536" duration="2948000" />
+      <workItem from="1592066805297" duration="491000" />
     </task>
     <servers />
   </component>

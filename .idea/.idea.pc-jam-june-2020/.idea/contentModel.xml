@@ -10,6 +10,11 @@
             <e p="EnemyMovement.cs" t="Include" />
             <e p="OverlapObjects.cs" t="Include" />
           </e>
+          <e p="Workers" t="Include">
+            <e p="ClickOnWorker.cs" t="Include" />
+            <e p="FindNewPosition.cs" t="Include" />
+            <e p="WorkerMovement.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
