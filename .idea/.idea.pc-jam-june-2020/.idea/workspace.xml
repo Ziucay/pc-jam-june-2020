@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1561f59-45e1-4bc5-87d2-bfe2f1f1b9a4" name="Default Changelist" comment="" />
+    <list default="true" id="b1561f59-45e1-4bc5-87d2-bfe2f1f1b9a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.pc-jam-june-2020/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pc-jam-june-2020/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.pc-jam-june-2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pc-jam-june-2020/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Palettes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Animations/AttackTower.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Roman/Animations/AttackTower.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Animations/TowerAnimation.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Animations/TowerAnimation.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Prefabs/AttackTower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Roman/Prefabs/AttackTower.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Prefabs/AttackTower.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Roman/Prefabs/AttackTower.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Prefabs/HealTower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Roman/Prefabs/HealTower.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Prefabs/HealTower.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Roman/Prefabs/HealTower.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Prefabs/SlowerTower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Roman/Prefabs/SlowerTower.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Prefabs/SlowerTower.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Roman/Prefabs/SlowerTower.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/0.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/1.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/2.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/3.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/4.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/5.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/6.gif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Roman/Sprites/Tower/7.gif.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,9 +41,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/OverlapObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Roman/Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Roman/Scripts/Tower.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -66,6 +98,9 @@
       <workItem from="1592030105536" duration="2948000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />

@@ -1,0 +1,434 @@
+fileFormatVersion: 2
+guid: 411a6d22853264baf8299dcbdcdfe4d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2097280115673873449
+    second: ExhaustTower_0
+  - first:
+      213: -7128089521316768661
+    second: ExhaustTower_1
+  - first:
+      213: -2379384338157793052
+    second: ExhaustTower_2
+  - first:
+      213: -3383661637815242186
+    second: ExhaustTower_3
+  - first:
+      213: -1041039792790548281
+    second: ExhaustTower_4
+  - first:
+      213: -2591077546499389200
+    second: ExhaustTower_5
+  - first:
+      213: -7251908637416911395
+    second: ExhaustTower_6
+  - first:
+      213: -7013356151940122392
+    second: ExhaustTower_7
+  - first:
+      213: 7187236182614077915
+    second: ExhaustTower_8
+  - first:
+      213: -973039738040536462
+    second: ExhaustTower_9
+  - first:
+      213: 4548498445063531147
+    second: ExhaustTower_10
+  - first:
+      213: 6950552958466329794
+    second: ExhaustTower_11
+  - first:
+      213: 1951533079216525294
+    second: ExhaustTower_12
+  - first:
+      213: 4429916817786278620
+    second: ExhaustTower_13
+  - first:
+      213: -2972977179382601404
+    second: ExhaustTower_14
+  - first:
+      213: 4572592222454214884
+    second: ExhaustTower_15
+  - first:
+      213: 5662016687178804810
+    second: ExhaustTower_16
+  - first:
+      213: 6600480802096308730
+    second: ExhaustTower_17
+  - first:
+      213: 116829490778847424
+    second: ExhaustTower_18
+  - first:
+      213: 3489722706237453437
+    second: ExhaustTower_19
+  - first:
+      213: -2046534205997317617
+    second: ExhaustTower_20
+  - first:
+      213: 6443097946702840654
+    second: ExhaustTower_21
+  - first:
+      213: 8598310200770323685
+    second: ExhaustTower_22
+  - first:
+      213: -1022791548693570065
+    second: ExhaustTower_23
+  - first:
+      213: 2462205301700224154
+    second: ExhaustTower_24
+  - first:
+      213: -4939591123559046999
+    second: ExhaustTower_25
+  - first:
+      213: 6249489865582572126
+    second: ExhaustTower_26
+  - first:
+      213: 2024499592209814915
+    second: ExhaustTower_27
+  - first:
+      213: 5860749739523940069
+    second: ExhaustTower_28
+  - first:
+      213: -3876432668036858569
+    second: ExhaustTower_29
+  - first:
+      213: 6246158228836425533
+    second: ExhaustTower_30
+  - first:
+      213: 7015859027996906003
+    second: ExhaustTower_31
+  - first:
+      213: -3879449188848672869
+    second: ExhaustTower_32
+  - first:
+      213: -2132140974443731808
+    second: ExhaustTower_0
+  - first:
+      213: -116630367176988165
+    second: ExhaustTower_1
+  - first:
+      213: 8487301670909016429
+    second: ExhaustTower_2
+  - first:
+      213: -4792108791016405091
+    second: ExhaustTower_3
+  - first:
+      213: -6814044429853800963
+    second: ExhaustTower_4
+  - first:
+      213: -4123104264417449938
+    second: ExhaustTower_5
+  - first:
+      213: 5157697717061187231
+    second: ExhaustTower_6
+  - first:
+      213: -7359719710065813257
+    second: ExhaustTower_7
+  - first:
+      213: 8039771302985113463
+    second: ExhaustTower_8
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExhaustTower_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4e93f841d1962e0800000000000000
+      internalID: -2132140974443731808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExhaustTower_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9646a8c45a16ef0800000000000000
+      internalID: -116630367176988165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExhaustTower_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d697c1ce6e3f8c570800000000000000
+      internalID: 8487301670909016429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExhaustTower_3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97c07ab1720f7db0800000000000000
+      internalID: -4792108791016405091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExhaustTower_4
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5c5d281b6af61a0800000000000000
+      internalID: -6814044429853800963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExhaustTower_5
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28ef73448ac7c6c0800000000000000
+      internalID: -4123104264417449938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExhaustTower_6
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96764c3fb2d39740800000000000000
+      internalID: 5157697717061187231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExhaustTower_8
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 0
+        width: 80
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f9ecd4761039f60800000000000000
+      internalID: 8039771302985113463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

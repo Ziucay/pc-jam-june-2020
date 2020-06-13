@@ -96,9 +96,9 @@ GameObject:
   - component: {fileID: 3304551882770913216}
   - component: {fileID: 3304551882770913217}
   - component: {fileID: 6513600822283964699}
-  - component: {fileID: 4769333495450625358}
   - component: {fileID: 4493839515666895151}
-  - component: {fileID: 4918824414286508932}
+  - component: {fileID: 722419803122562159}
+  - component: {fileID: 7554920030690701685}
   m_Layer: 0
   m_Name: AttackTower
   m_TagString: Untagged
@@ -114,7 +114,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3304551882770913228}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.30315802, y: 2.773534, z: 0}
+  m_LocalPosition: {x: 1.1184319, y: 3.1279736, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3059520254724312198}
@@ -162,12 +162,13 @@ SpriteRenderer:
   m_SortingLayerID: -1991268485
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7d2cddae263304822aa3f74ef38b4667, type: 3}
+  m_Sprite: {fileID: 5916217038081576687, guid: ab4561570f991493c93212162a16b865,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.64, y: 1.28}
+  m_Size: {x: 0.19, y: 0.19}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -191,7 +192,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 0.64, y: 1.28}
-    newSize: {x: 0.64, y: 1.28}
+    newSize: {x: 0.19, y: 0.19}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -199,7 +200,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.64, y: 1.0502874}
   m_EdgeRadius: 0
---- !u!95 &4769333495450625358
+--- !u!114 &4493839515666895151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3304551882770913228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848944b18b1c24272a51ec6b0b8f0d29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 7453673321592029131}
+  healthScript: {fileID: 0}
+--- !u!95 &722419803122562159
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -218,23 +233,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4493839515666895151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3304551882770913228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 848944b18b1c24272a51ec6b0b8f0d29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentHP: 100
-  maxHP: 100
-  healthBar: {fileID: 7453673321592029131}
-  healthScript: {fileID: 0}
---- !u!114 &4918824414286508932
+--- !u!114 &7554920030690701685
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
