@@ -101,7 +101,7 @@ public class PlayerClick : MonoBehaviour
     {
         if (Input.GetMouseButton(0))
         {
-            Vector3 objectPos = GetObjectPosition(GetMousePosition());
+            objectPos = GetObjectPosition(GetMousePosition());
             if (CanPlaceHere(objectPos))
             {
                 PlaceUnit(objectPos);

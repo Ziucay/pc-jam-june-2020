@@ -1,18 +1,24 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class WorkerMovement : MonoBehaviour
 {
-    private bool _isSelect = false;
+    public bool _isSelect = false;
     [SerializeField] private float speed = 10f;
-    private Vector3 _newPosition;
+    [SerializeField] private Vector3 _newPosition;
     private float _error;
+    public Vector3 direction;
 
-    // Update is called once per frame
+    private void Start()
+    {
+        _newPosition = transform.position;
+    }
+
     void Update()
     {
-        if (_isSelect)
+        if (IsSelect)
         {
             Move();
         }
@@ -20,21 +26,33 @@ public class WorkerMovement : MonoBehaviour
 
     public bool IsSelect => _isSelect;
 
-    public void Select(bool value)
+    public void Select()
     {
-        _isSelect = value;
+        _isSelect = true;
+    }
+
+    public void Deselect()
+    {
+        _isSelect = false;
     }
 
     private void Move()
     {
-        Vector3 direction = _newPosition - transform.position;
+        direction = _newPosition - transform.position;
         
         transform.Translate(direction.normalized * speed * Time.deltaTime);
 
-        if (transform.position.x + _error <= _newPosition.x 
-            && transform.position.y + _error <= _newPosition.x)
+        if (Vector2.Distance(transform.position, _newPosition) < 0.1 && IsSelect
+                                                                     && _newPosition != transform.position)
         {
-            _isSelect = false;
+            _newPosition = transform.position;
+            Deselect();
         }
+    }
+
+    public void SetPosition(Vector3 position)
+    {
+        _newPosition = position;
+        _newPosition.z = 0;
     }
 }
