@@ -6,9 +6,11 @@ public class DeathScreen : MonoBehaviour
     public GameObject Screen;
     private TopBar timer;
 
-    // Start is called before the first frame update
+    public GameObject Bar;
+
     void Start()
     {
+        timer = Bar.GetComponent<TopBar>();
         Screen.SetActive(false);
     }
 
