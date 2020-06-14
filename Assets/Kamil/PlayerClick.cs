@@ -12,11 +12,13 @@ public class PlayerClick : MonoBehaviour
     [SerializeField] GameObject wallPrefabWallReverse;
     [SerializeField] GameObject wallPrefabWallTopLeft;
     [SerializeField] GameObject wallPrefabWallTopRight;
+    [SerializeField] GameObject worker;
 
     public Sprite wallBlockSprite;
     public Sprite attackTowerSprite;
     public Sprite healTowerSprite;
     public Sprite slowerTowerSprite;
+    public Sprite workerSprite;
 
     public GameObject transparentBlock;
     private SpriteRenderer spriteRendererTransparentBlock;
@@ -85,6 +87,7 @@ public class PlayerClick : MonoBehaviour
                     spriteRendererTransparentBlock.sprite = slowerTowerSprite;
                     break;
                 case 5:
+                    spriteRendererTransparentBlock.sprite = workerSprite;
                     break;
                 case 6:
                     break;
@@ -143,12 +146,12 @@ public class PlayerClick : MonoBehaviour
             unitType = 4;
         }
 
-        /*
+        
         if (Input.GetKeyDown(KeyCode.Keypad5) || Input.GetKeyDown(KeyCode.Alpha5))
         {
             unitType = 5;
         }
-
+        /*
         if (Input.GetKeyDown(KeyCode.Keypad6) || Input.GetKeyDown(KeyCode.Alpha6))
         {
             unitType = 6;
@@ -244,6 +247,7 @@ public class PlayerClick : MonoBehaviour
                 towerManager.AddSlowerTower(objectPos);
                 break;
             case 5:
+                Instantiate(worker, objectPos, Quaternion.identity);
                 break;
             case 6:
                 break;

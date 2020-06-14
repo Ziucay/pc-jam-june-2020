@@ -34082,7 +34082,7 @@ PrefabInstance:
     - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
         type: 3}
@@ -34965,7 +34965,7 @@ RectTransform:
   m_Children:
   - {fileID: 1973283513}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -35435,6 +35435,7 @@ GameObject:
   - component: {fileID: 1335274167}
   - component: {fileID: 1335274166}
   - component: {fileID: 1335274168}
+  - component: {fileID: 1335274169}
   m_Layer: 0
   m_Name: CastleGenerator
   m_TagString: Untagged
@@ -35466,11 +35467,13 @@ MonoBehaviour:
     type: 3}
   wallPrefabWallTopRight: {fileID: 4586280002087185462, guid: aeeeee12880f206478c94210258c3a8c,
     type: 3}
+  worker: {fileID: 3579590551292332759, guid: 34426348bdd540e4a818b9dfad94196e, type: 3}
   wallBlockSprite: {fileID: 21300000, guid: 7e17961bdf396fa47b04e3fe1945e601, type: 3}
   attackTowerSprite: {fileID: 21300000, guid: aa7007296632cbb489bdd709879b385e, type: 3}
   healTowerSprite: {fileID: 21300000, guid: 469f4142dfe4a9944985e12e6565d192, type: 3}
   slowerTowerSprite: {fileID: -2097280115673873449, guid: 8ddca24781d6ec54598bb371cda523e2,
     type: 3}
+  workerSprite: {fileID: 21300000, guid: 994ee6b2a6807cd41a9626193c3e98c8, type: 3}
   transparentBlock: {fileID: 1220614455}
 --- !u!4 &1335274167
 Transform:
@@ -35504,6 +35507,19 @@ MonoBehaviour:
     type: 3}
   slowerTower: {fileID: 3304551882770913228, guid: 21b60b9e8b4e8489aa1e7a52c8fe57d4,
     type: 3}
+--- !u!114 &1335274169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335274165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c9ced9a9079c7b49b5383ff40d2b182, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pk: {fileID: 1335274166}
 --- !u!1 &1363432088
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,6 +14,10 @@ public class FindNewPosition : MonoBehaviour
     void Start()
     {
         movement = this.GetComponent<WorkerMovement>();
+        if (camera == null)
+        {
+            camera = GameObject.Find("Main Camera").GetComponent<Camera>();
+        }
     }
 
     
