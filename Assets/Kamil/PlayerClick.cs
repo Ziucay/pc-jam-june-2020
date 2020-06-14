@@ -66,35 +66,44 @@ public class PlayerClick : MonoBehaviour
     // Полупрозрачная клетка, показывающая, что сюда можно поставить блок
     private void ShowTransparentBlock(Vector3 objectPos)
     {
-        transparentBlock.transform.position = objectPos;
-
-        switch (unitType)
+        if (CanPlaceHere(objectPos))
         {
-            case 1:
-                spriteRendererTransparentBlock.sprite = wallBlockSprite;
-                break;
-            case 2:
-                spriteRendererTransparentBlock.sprite = attackTowerSprite;
-                break;
-            case 3:
-                spriteRendererTransparentBlock.sprite = healTowerSprite;
-                break;
-            case 4:
-                spriteRendererTransparentBlock.sprite = slowerTowerSprite;
-                break;
-            case 5:
-                break;
-            case 6:
-                break;
-            case 7:
-                break;
-            case 8:
-                break;
-            case 9:
-                break;
-            case 0:
-                break;
+            transparentBlock.transform.position = objectPos;
+
+            switch (unitType)
+            {
+                case 1:
+                    spriteRendererTransparentBlock.sprite = wallBlockSprite;
+                    break;
+                case 2:
+                    spriteRendererTransparentBlock.sprite = attackTowerSprite;
+                    break;
+                case 3:
+                    spriteRendererTransparentBlock.sprite = healTowerSprite;
+                    break;
+                case 4:
+                    spriteRendererTransparentBlock.sprite = slowerTowerSprite;
+                    break;
+                case 5:
+                    break;
+                case 6:
+                    break;
+                case 7:
+                    break;
+                case 8:
+                    break;
+                case 9:
+                    break;
+                case 0:
+                    break;
+            }
         }
+        else
+        {
+            spriteRendererTransparentBlock.sprite = null;
+        }
+        
+        
     }
 
     private void CheckMouseClick(Vector3 objectPos)

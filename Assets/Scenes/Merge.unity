@@ -34026,6 +34026,96 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &348359729
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 216097578259620432, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_Name
+      value: TransparentBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620433, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7e17961bdf396fa47b04e3fe1945e601,
+        type: 3}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 216097578259620434, guid: 3ddc10d38946a4dcba868c8437bd679e,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ddc10d38946a4dcba868c8437bd679e, type: 3}
 --- !u!1 &363654043
 GameObject:
   m_ObjectHideFlags: 0
@@ -35265,6 +35355,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1220614455 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 216097578259620432, guid: 3ddc10d38946a4dcba868c8437bd679e,
+    type: 3}
+  m_PrefabInstance: {fileID: 348359729}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1282409087
 GameObject:
   m_ObjectHideFlags: 0
@@ -35370,12 +35466,12 @@ MonoBehaviour:
     type: 3}
   wallPrefabWallTopRight: {fileID: 4586280002087185462, guid: aeeeee12880f206478c94210258c3a8c,
     type: 3}
-  wallBlockSprite: {fileID: 21300000, guid: 2c442ab7e6875ac4f9f29563b8e91658, type: 3}
+  wallBlockSprite: {fileID: 21300000, guid: 7e17961bdf396fa47b04e3fe1945e601, type: 3}
   attackTowerSprite: {fileID: 21300000, guid: aa7007296632cbb489bdd709879b385e, type: 3}
   healTowerSprite: {fileID: 21300000, guid: 469f4142dfe4a9944985e12e6565d192, type: 3}
   slowerTowerSprite: {fileID: -2097280115673873449, guid: 8ddca24781d6ec54598bb371cda523e2,
     type: 3}
-  transparentBlock: {fileID: 0}
+  transparentBlock: {fileID: 1220614455}
 --- !u!4 &1335274167
 Transform:
   m_ObjectHideFlags: 0
@@ -35404,7 +35500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackTower: {fileID: 3304551882770913228, guid: dcbb61f61ba134257b8ee6e8c8231594,
     type: 3}
-  healTower: {fileID: 3304551882770913228, guid: 2e5d1a24e839246db8e697aad61dbf70,
+  healTower: {fileID: 3304551882770913228, guid: 6616049c3bfef439b8b7ecb31d41a37e,
     type: 3}
   slowerTower: {fileID: 3304551882770913228, guid: 21b60b9e8b4e8489aa1e7a52c8fe57d4,
     type: 3}
