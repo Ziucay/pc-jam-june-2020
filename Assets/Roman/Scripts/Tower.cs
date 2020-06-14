@@ -10,7 +10,7 @@ public class Tower : MonoBehaviour
 
     void Start()
     {
-        healthScript = transform.parent.GetComponent<Health>();
+        healthScript = transform.GetComponent<Health>();
         healthScript.OnHpIncreased += UpdateHealthBar;
         healthScript.OnHpDecreased += UpdateHealthBar;
         healthScript.OnDeath += DestroyTower;

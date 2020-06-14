@@ -23,9 +23,16 @@ public class Health : MonoBehaviour
     public void DecreaseHealth(int hp)
     {
         health = Mathf.Max(0, health - hp);
-        OnHpDecreased.Invoke();
-        if (hp == 0)
+        //Debug.Log("Damaged");
+        if (health == 0)
+        {
             Death();
+        }
+        else
+        {
+            OnHpDecreased.Invoke();
+        }
+       
     }
 
     public void IncreaseHealth(int hp)

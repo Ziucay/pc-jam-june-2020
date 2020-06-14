@@ -7,11 +7,23 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private GameObject mainTarget;
     private GameObject _currentTarget;
+    private Health healtScript;
     private bool _isMove = true;
 
     void Start()
     {
+        if (mainTarget == null)
+        {
+            mainTarget = GameObject.Find("MainTarget");
+        }
         _currentTarget = mainTarget;
+        healtScript = GetComponent<Health>();
+        healtScript.OnDeath += Death;
+    }
+
+    void Death()
+    {
+        Destroy(this.gameObject);
     }
 
     void Update()
@@ -24,7 +36,8 @@ public class EnemyMovement : MonoBehaviour
 
     void Move(GameObject currentTarget)
     {
-
+        if (currentTarget == null)
+            return;
         float angle = Vector3.Angle(currentTarget.transform.position - transform.position, Vector3.up);
 
         Vector3 vectorToTarget = currentTarget.transform.position - transform.position;

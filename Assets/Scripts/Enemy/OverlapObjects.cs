@@ -34,7 +34,6 @@ public class OverlapObjects : MonoBehaviour
             if (distance < minDistanсe) nearestCollider = VARIABLE;
 
         }
-        
         if (nearestCollider != null) movement.SetTarget(nearestCollider.gameObject);
     }
 }

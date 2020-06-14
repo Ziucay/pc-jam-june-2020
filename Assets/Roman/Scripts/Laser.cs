@@ -3,7 +3,6 @@
 public class Laser : MonoBehaviour
 {
     private float scaleCoefficient;
-
     void Start()
     {
         scaleCoefficient = 0.4f;
