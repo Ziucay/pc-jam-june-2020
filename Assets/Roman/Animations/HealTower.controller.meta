@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Roman/Animations/HealTower.controller.meta
 guid: 428b612a8ff0b4763a55334f20ebe6d2
+=======
+guid: 56e41231f585fe141a4f4651f35b5266
+>>>>>>> master:Assets/Kamil/TilePallete/Tile Set_6.asset.meta
+=======
+guid: 428b612a8ff0b4763a55334f20ebe6d2
+>>>>>>> master
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0

@@ -98,9 +98,10 @@ GameObject:
   - component: {fileID: 6513600822283964699}
   - component: {fileID: 6987463009643646979}
   - component: {fileID: 8014488524185998182}
+  - component: {fileID: 5916538958746680548}
   m_Layer: 0
   m_Name: SlowerTower
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,7 +114,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3304551882770913228}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7505267, y: -1.034737, z: 0}
+  m_LocalPosition: {x: 1, y: 3, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3059520254724312198}
@@ -211,9 +212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848944b18b1c24272a51ec6b0b8f0d29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHP: 20
-  maxHP: 100
   healthBar: {fileID: 9194402412991689063}
+  healthScript: {fileID: 0}
 --- !u!95 &8014488524185998182
 Animator:
   serializedVersion: 3
@@ -233,6 +233,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5916538958746680548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3304551882770913228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31fc8ccbb5c1cd34d935881441fbdd75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
 --- !u!1 &7344415061465091789
 GameObject:
   m_ObjectHideFlags: 0

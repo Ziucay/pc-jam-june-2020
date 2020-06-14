@@ -1,0 +1,2027 @@
+fileFormatVersion: 2
+guid: a76aea6a0ca4af540add2a82146d7ef1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6318678285031489824
+    second: autotile_tileset_0
+  - first:
+      213: -7814156547749468790
+    second: autotile_tileset_1
+  - first:
+      213: 7222509984961320956
+    second: autotile_tileset_2
+  - first:
+      213: 6701303863128334601
+    second: autotile_tileset_3
+  - first:
+      213: 7945259994943056140
+    second: autotile_tileset_4
+  - first:
+      213: -743345146488940924
+    second: autotile_tileset_5
+  - first:
+      213: 5092115374719348908
+    second: autotile_tileset_6
+  - first:
+      213: 2752534031673432299
+    second: autotile_tileset_7
+  - first:
+      213: 6445951259994895172
+    second: autotile_tileset_8
+  - first:
+      213: 5987699617257022411
+    second: autotile_tileset_9
+  - first:
+      213: -8544969115720123968
+    second: autotile_tileset_10
+  - first:
+      213: -5301853836167433332
+    second: autotile_tileset_11
+  - first:
+      213: 6767342561088690961
+    second: autotile_tileset_12
+  - first:
+      213: -1922539000564004329
+    second: autotile_tileset_13
+  - first:
+      213: 6083343085079835801
+    second: autotile_tileset_14
+  - first:
+      213: -7489559952139306273
+    second: autotile_tileset_15
+  - first:
+      213: 3688480553854758551
+    second: autotile_tileset_16
+  - first:
+      213: 4215220343472566626
+    second: autotile_tileset_17
+  - first:
+      213: -8961239556002537694
+    second: autotile_tileset_18
+  - first:
+      213: -4655919088096844571
+    second: autotile_tileset_19
+  - first:
+      213: 7952490522299753328
+    second: autotile_tileset_20
+  - first:
+      213: -7897922504731599949
+    second: autotile_tileset_21
+  - first:
+      213: 4729129682547074226
+    second: autotile_tileset_22
+  - first:
+      213: 2926313785523626185
+    second: autotile_tileset_23
+  - first:
+      213: -186450738273480271
+    second: autotile_tileset_24
+  - first:
+      213: 562013848107692480
+    second: autotile_tileset_25
+  - first:
+      213: -5935192775571962765
+    second: autotile_tileset_26
+  - first:
+      213: 3733823023102072569
+    second: autotile_tileset_27
+  - first:
+      213: -6389602651889712675
+    second: autotile_tileset_28
+  - first:
+      213: 962191804029152183
+    second: autotile_tileset_29
+  - first:
+      213: -7006712929734664893
+    second: autotile_tileset_30
+  - first:
+      213: 2989201020067996294
+    second: autotile_tileset_31
+  - first:
+      213: 1870152894596127882
+    second: autotile_tileset_32
+  - first:
+      213: -5038217101156284816
+    second: autotile_tileset_33
+  - first:
+      213: 4191932742824564402
+    second: autotile_tileset_34
+  - first:
+      213: 2539203657558185531
+    second: autotile_tileset_35
+  - first:
+      213: -6630598828949161616
+    second: autotile_tileset_36
+  - first:
+      213: -7524370532247995602
+    second: autotile_tileset_37
+  - first:
+      213: 864779745846581268
+    second: autotile_tileset_38
+  - first:
+      213: -4686334240469463447
+    second: autotile_tileset_39
+  - first:
+      213: -5614124833668423144
+    second: autotile_tileset_40
+  - first:
+      213: -1486727906927444567
+    second: autotile_tileset_41
+  - first:
+      213: -327494859087643703
+    second: autotile_tileset_42
+  - first:
+      213: -1622861348084347206
+    second: autotile_tileset_43
+  - first:
+      213: 7879514083675272720
+    second: autotile_tileset_44
+  - first:
+      213: -6516624103029989841
+    second: autotile_tileset_45
+  - first:
+      213: -4935221419140069780
+    second: autotile_tileset_46
+  - first:
+      213: 2541767482710703661
+    second: autotile_tileset_47
+  - first:
+      213: -6537422086359907300
+    second: autotile_tileset_48
+  - first:
+      213: 1796884934996628636
+    second: autotile_tileset_49
+  - first:
+      213: -5374745993175202994
+    second: autotile_tileset_50
+  - first:
+      213: 9195064574519289864
+    second: autotile_tileset_51
+  - first:
+      213: 2392304086012039017
+    second: autotile_tileset_52
+  - first:
+      213: 7533520378343742539
+    second: autotile_tileset_53
+  - first:
+      213: 7738917209521576338
+    second: autotile_tileset_54
+  - first:
+      213: 7621950539525853754
+    second: autotile_tileset_55
+  - first:
+      213: -6764826847687114449
+    second: autotile_tileset_56
+  - first:
+      213: 8259725317248295694
+    second: autotile_tileset_57
+  - first:
+      213: 8076867445820617756
+    second: autotile_tileset_58
+  - first:
+      213: 3726261760646847989
+    second: autotile_tileset_59
+  - first:
+      213: -1012838293752830935
+    second: autotile_tileset_60
+  - first:
+      213: -7454364785777307296
+    second: autotile_tileset_61
+  - first:
+      213: 3050269547239489024
+    second: autotile_tileset_62
+  - first:
+      213: 1859341038566909762
+    second: autotile_tileset_63
+  - first:
+      213: 4196124655240425853
+    second: autotile_tileset_64
+  - first:
+      213: 2091107341492129384
+    second: autotile_tileset_65
+  - first:
+      213: -5295579716907998735
+    second: autotile_tileset_66
+  - first:
+      213: -8801982285219423474
+    second: autotile_tileset_67
+  - first:
+      213: -7703501950916374703
+    second: autotile_tileset_68
+  - first:
+      213: 6455881282075472148
+    second: autotile_tileset_69
+  - first:
+      213: 7122899560008258567
+    second: autotile_tileset_70
+  - first:
+      213: 7599907078064365939
+    second: autotile_tileset_71
+  - first:
+      213: -9215221465266953084
+    second: autotile_tileset_72
+  - first:
+      213: -7669302330070637913
+    second: autotile_tileset_73
+  - first:
+      213: -5798247432317908605
+    second: autotile_tileset_74
+  - first:
+      213: 1443145935887550367
+    second: autotile_tileset_75
+  - first:
+      213: 2591890201705176350
+    second: autotile_tileset_76
+  - first:
+      213: 1258274991730232142
+    second: autotile_tileset_77
+  - first:
+      213: 5311947533621209395
+    second: autotile_tileset_78
+  - first:
+      213: 2543170559869502368
+    second: autotile_tileset_79
+  - first:
+      213: -1800318503650372984
+    second: autotile_tileset_80
+  - first:
+      213: -493432112556345035
+    second: autotile_tileset_81
+  - first:
+      213: 6324750498390898119
+    second: autotile_tileset_82
+  - first:
+      213: -3404548978279459212
+    second: autotile_tileset_83
+  - first:
+      213: -1073714026106209597
+    second: autotile_tileset_84
+  - first:
+      213: -8722373390985126909
+    second: autotile_tileset_85
+  - first:
+      213: -3340540802359166262
+    second: autotile_tileset_86
+  - first:
+      213: -2290364530272907965
+    second: autotile_tileset_87
+  - first:
+      213: 4836710927651252212
+    second: autotile_tileset_88
+  - first:
+      213: 6059940600710534206
+    second: autotile_tileset_89
+  - first:
+      213: -1550301867689184903
+    second: autotile_tileset_90
+  - first:
+      213: -3999469683902109027
+    second: autotile_tileset_91
+  - first:
+      213: -4655056410876637064
+    second: autotile_tileset_92
+  - first:
+      213: -6645561049593756992
+    second: autotile_tileset_93
+  - first:
+      213: -5007708452467753536
+    second: autotile_tileset_94
+  - first:
+      213: -4109537272336970889
+    second: autotile_tileset_95
+  - first:
+      213: -6045668269000913559
+    second: autotile_tileset_96
+  - first:
+      213: -4078320486896190059
+    second: autotile_tileset_97
+  - first:
+      213: 7195062386859239492
+    second: autotile_tileset_98
+  - first:
+      213: -4039507771322168933
+    second: autotile_tileset_99
+  - first:
+      213: -2063491118638260928
+    second: autotile_tileset_100
+  - first:
+      213: -7739901343137373217
+    second: autotile_tileset_101
+  - first:
+      213: 4909173965087533071
+    second: autotile_tileset_102
+  - first:
+      213: 2136336321180085432
+    second: autotile_tileset_103
+  - first:
+      213: 5831765987707511315
+    second: autotile_tileset_104
+  - first:
+      213: 9008895222975246259
+    second: autotile_tileset_105
+  - first:
+      213: 3152093355920384495
+    second: autotile_tileset_106
+  - first:
+      213: -283017147513582389
+    second: autotile_tileset_107
+  - first:
+      213: -3516309401944227884
+    second: autotile_tileset_108
+  - first:
+      213: -3560584690893348337
+    second: autotile_tileset_109
+  - first:
+      213: 5772912523398988525
+    second: autotile_tileset_110
+  - first:
+      213: 8751730714527482309
+    second: autotile_tileset_111
+  - first:
+      213: 5188842047346874441
+    second: autotile_tileset_112
+  - first:
+      213: -4527169616945288264
+    second: autotile_tileset_113
+  - first:
+      213: 8450515147637488704
+    second: autotile_tileset_114
+  - first:
+      213: 7726737423935208772
+    second: autotile_tileset_115
+  - first:
+      213: 3583562758696788860
+    second: autotile_tileset_116
+  - first:
+      213: -7473384059524213608
+    second: autotile_tileset_117
+  - first:
+      213: 1952965631061167742
+    second: autotile_tileset_118
+  - first:
+      213: 4216408771075535403
+    second: autotile_tileset_119
+  - first:
+      213: 9206015926851979841
+    second: autotile_tileset_120
+  - first:
+      213: -1228473107027409025
+    second: autotile_tileset_121
+  - first:
+      213: 4798192803651140754
+    second: autotile_tileset_122
+  - first:
+      213: -7634795364462635919
+    second: autotile_tileset_123
+  - first:
+      213: 714726735049044167
+    second: autotile_tileset_124
+  - first:
+      213: -2379946126861452386
+    second: autotile_tileset_125
+  - first:
+      213: 1310083314689606050
+    second: autotile_tileset_126
+  - first:
+      213: 3536485272566779855
+    second: autotile_tileset_127
+  - first:
+      213: -9186913979268637595
+    second: autotile_tileset_128
+  - first:
+      213: 274917088632831431
+    second: autotile_tileset_129
+  - first:
+      213: -580525520300122685
+    second: autotile_tileset_130
+  - first:
+      213: -5219457981548050860
+    second: autotile_tileset_131
+  - first:
+      213: 3573420067906646386
+    second: autotile_tileset_132
+  - first:
+      213: -6203272557944214190
+    second: autotile_tileset_133
+  - first:
+      213: 3671779819093560620
+    second: autotile_tileset_134
+  - first:
+      213: -3711520591607342368
+    second: autotile_tileset_135
+  - first:
+      213: -7842313408504955703
+    second: autotile_tileset_136
+  - first:
+      213: -9117341059912030182
+    second: autotile_tileset_137
+  - first:
+      213: 2249056312090819743
+    second: autotile_tileset_138
+  - first:
+      213: 8537268297117403205
+    second: autotile_tileset_139
+  - first:
+      213: 7191936418989192685
+    second: autotile_tileset_140
+  - first:
+      213: -7949501609462982089
+    second: autotile_tileset_141
+  - first:
+      213: 7074573248463454224
+    second: autotile_tileset_142
+  - first:
+      213: -4615102052892346181
+    second: autotile_tileset_143
+  - first:
+      213: -438824656855048052
+    second: autotile_tileset_144
+  - first:
+      213: -9188139556271021826
+    second: autotile_tileset_145
+  - first:
+      213: -1104184499412269132
+    second: autotile_tileset_146
+  - first:
+      213: 4770154424656858253
+    second: autotile_tileset_147
+  - first:
+      213: -536199031220066946
+    second: autotile_tileset_148
+  - first:
+      213: 444748134518743612
+    second: autotile_tileset_149
+  - first:
+      213: -6423201291918220589
+    second: autotile_tileset_150
+  - first:
+      213: 5890220075241766400
+    second: autotile_tileset_151
+  - first:
+      213: 7742041712328679121
+    second: autotile_tileset_152
+  - first:
+      213: -2745325783138841692
+    second: autotile_tileset_153
+  - first:
+      213: 8365367515632155306
+    second: autotile_tileset_154
+  - first:
+      213: 5476286327068481856
+    second: autotile_tileset_155
+  - first:
+      213: 6040888493512186912
+    second: autotile_tileset_156
+  - first:
+      213: -8963131204892058798
+    second: autotile_tileset_157
+  - first:
+      213: 3028497303325812887
+    second: autotile_tileset_158
+  - first:
+      213: 6228739997543130773
+    second: autotile_tileset_159
+  - first:
+      213: -8431918142342868918
+    second: autotile_tileset_160
+  - first:
+      213: 738395411058246511
+    second: autotile_tileset_161
+  - first:
+      213: 5751452347682936040
+    second: autotile_tileset_162
+  - first:
+      213: 4947254313713571733
+    second: autotile_tileset_163
+  - first:
+      213: -4222947640549132621
+    second: autotile_tileset_164
+  - first:
+      213: 7232294694179185187
+    second: autotile_tileset_165
+  - first:
+      213: -7321788539695512811
+    second: autotile_tileset_166
+  - first:
+      213: 7165592170040991559
+    second: autotile_tileset_167
+  - first:
+      213: 931073838908576252
+    second: autotile_tileset_168
+  - first:
+      213: 709886265996972339
+    second: autotile_tileset_169
+  - first:
+      213: -8294635072256666755
+    second: autotile_tileset_170
+  - first:
+      213: -2472462161479800320
+    second: autotile_tileset_171
+  - first:
+      213: 7122069940144966822
+    second: autotile_tileset_172
+  - first:
+      213: -4864924631384817375
+    second: autotile_tileset_173
+  - first:
+      213: 939132093400210554
+    second: autotile_tileset_174
+  - first:
+      213: -4920653601612765469
+    second: autotile_tileset_175
+  - first:
+      213: 596092133501309817
+    second: autotile_tileset_176
+  - first:
+      213: 6310107792479880073
+    second: autotile_tileset_177
+  - first:
+      213: 806458799709698915
+    second: autotile_tileset_178
+  - first:
+      213: -5271530991119964515
+    second: autotile_tileset_179
+  - first:
+      213: -2837308696364450225
+    second: autotile_tileset_180
+  - first:
+      213: -3786053034982053880
+    second: autotile_tileset_181
+  - first:
+      213: 6120421320943751333
+    second: autotile_tileset_182
+  - first:
+      213: -4258858456784987750
+    second: autotile_tileset_183
+  - first:
+      213: 3067188804946825437
+    second: autotile_tileset_184
+  - first:
+      213: 6842543367065489755
+    second: autotile_tileset_185
+  - first:
+      213: -4716125759946738866
+    second: autotile_tileset_186
+  - first:
+      213: -6758373650165790632
+    second: autotile_tileset_187
+  - first:
+      213: 8991978087480224596
+    second: autotile_tileset_188
+  - first:
+      213: 6189217107094619592
+    second: autotile_tileset_189
+  - first:
+      213: 8098724827905034171
+    second: autotile_tileset_190
+  - first:
+      213: -16922723908479173
+    second: autotile_tileset_191
+  - first:
+      213: -1472850518773970277
+    second: autotile_tileset_192
+  - first:
+      213: -982533603960480700
+    second: autotile_tileset_193
+  - first:
+      213: 6909441566660837405
+    second: autotile_tileset_194
+  - first:
+      213: 1864753519107561148
+    second: autotile_tileset_195
+  - first:
+      213: 2638873243297018500
+    second: autotile_tileset_196
+  - first:
+      213: -5931064221697919383
+    second: autotile_tileset_197
+  - first:
+      213: 2274880044188018380
+    second: autotile_tileset_198
+  - first:
+      213: 8725955664406510132
+    second: autotile_tileset_199
+  - first:
+      213: -5602499859796531775
+    second: autotile_tileset_200
+  - first:
+      213: 5035731491481194555
+    second: autotile_tileset_201
+  - first:
+      213: 7751216739866630072
+    second: autotile_tileset_202
+  - first:
+      213: -8832646961067187106
+    second: autotile_tileset_203
+  - first:
+      213: 4345070747159009707
+    second: autotile_tileset_204
+  - first:
+      213: -8441406896178632888
+    second: autotile_tileset_205
+  - first:
+      213: 5293903609052623650
+    second: autotile_tileset_206
+  - first:
+      213: 9051175526426156966
+    second: autotile_tileset_207
+  - first:
+      213: 7203796568973670632
+    second: autotile_tileset_208
+  - first:
+      213: -9146681324836092802
+    second: autotile_tileset_209
+  - first:
+      213: 8649079141619047914
+    second: autotile_tileset_210
+  - first:
+      213: 8652750432697025106
+    second: autotile_tileset_211
+  - first:
+      213: -1012226005498093794
+    second: autotile_tileset_212
+  - first:
+      213: 3439071255336771252
+    second: autotile_tileset_213
+  - first:
+      213: -627333845146518049
+    second: autotile_tileset_214
+  - first:
+      213: -1678338685554120641
+    second: autotile_tileset_215
+  - first:
+      213: -6386143839866128742
+    second: autotile_tileset_216
+  - first:
+      213: -6515154235298856885
+    second: autotile_tileset_217
+  - first:
+      213: -7784042957913831849
+    second: autotile_tileset_218
+  - first:
+      213: 8673624471683225167
+    second: autotile_tileset_219
+  - first:
+      213: 1446900134059727353
+    second: autotile_tileset_220
+  - first:
+      213: -1331247087402907184
+    second: autotile_tileset_221
+  - first:
+      213: 4818683415767247367
+    second: autotile_tileset_222
+  - first:
+      213: -8276570764753927559
+    second: autotile_tileset_223
+  - first:
+      213: -1196500036457594027
+    second: autotile_tileset_224
+  - first:
+      213: -931294240971479453
+    second: autotile_tileset_225
+  - first:
+      213: 2112460281415196180
+    second: autotile_tileset_226
+  - first:
+      213: 563043989442460138
+    second: autotile_tileset_227
+  - first:
+      213: -4177453851955227560
+    second: autotile_tileset_228
+  - first:
+      213: -3429711745426346479
+    second: autotile_tileset_229
+  - first:
+      213: 5791524506447879036
+    second: autotile_tileset_230
+  - first:
+      213: -7183336503139173698
+    second: autotile_tileset_231
+  - first:
+      213: -8098781728022766506
+    second: autotile_tileset_232
+  - first:
+      213: 2385145276573661243
+    second: autotile_tileset_233
+  - first:
+      213: 2331917085351882720
+    second: autotile_tileset_234
+  - first:
+      213: -3907416490174479392
+    second: autotile_tileset_235
+  - first:
+      213: 693752590082771572
+    second: autotile_tileset_236
+  - first:
+      213: 1584580486390124226
+    second: autotile_tileset_237
+  - first:
+      213: -2738966078013059738
+    second: autotile_tileset_238
+  - first:
+      213: 8542755098401501157
+    second: autotile_tileset_239
+  - first:
+      213: 4924436234091312203
+    second: autotile_tileset_240
+  - first:
+      213: -651784876908930414
+    second: autotile_tileset_241
+  - first:
+      213: 2060530883496099323
+    second: autotile_tileset_242
+  - first:
+      213: 7413892479828833086
+    second: autotile_tileset_243
+  - first:
+      213: -7714515776447500270
+    second: autotile_tileset_244
+  - first:
+      213: -3094417745655426169
+    second: autotile_tileset_245
+  - first:
+      213: 2297069261670753933
+    second: autotile_tileset_246
+  - first:
+      213: -1746230739183150337
+    second: autotile_tileset_247
+  - first:
+      213: 3487816762430175446
+    second: autotile_tileset_248
+  - first:
+      213: -263235178477148356
+    second: autotile_tileset_249
+  - first:
+      213: 7216832485296408334
+    second: autotile_tileset_250
+  - first:
+      213: -8720226928035575995
+    second: autotile_tileset_251
+  - first:
+      213: -808102213326112925
+    second: autotile_tileset_252
+  - first:
+      213: 132870121339802544
+    second: autotile_tileset_253
+  - first:
+      213: 7413759433317234107
+    second: autotile_tileset_254
+  - first:
+      213: 2486699939765322908
+    second: autotile_tileset_255
+  - first:
+      213: -5598742238532697174
+    second: autotile_tileset_256
+  - first:
+      213: 5835429693825000449
+    second: autotile_tileset_257
+  - first:
+      213: -1087557837602051313
+    second: autotile_tileset_258
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: autotile_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 270
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee39bad39b8f48a0800000000000000
+      internalID: -6318678285031489824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 370
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85a910650a8e8390800000000000000
+      internalID: -7814156547749468790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 370
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7d45890928b3460800000000000000
+      internalID: 7222509984961320956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 370
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901a7b5cb50dffc50800000000000000
+      internalID: 6701303863128334601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 370
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09e3be9edb334e60800000000000000
+      internalID: 7945259994943056140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 370
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4861406178b1fa5f0800000000000000
+      internalID: -743345146488940924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 370
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0b37144f3daa640800000000000000
+      internalID: 5092115374719348908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 370
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be891164e17f23620800000000000000
+      internalID: 2752534031673432299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 370
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4433a73d48e947950800000000000000
+      internalID: 6445951259994895172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3e854e315981350800000000000000
+      internalID: 5987699617257022411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c971d8ccdb2a6980800000000000000
+      internalID: -8544969115720123968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83b234c6080c66b0800000000000000
+      internalID: -5301853836167433332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bd213543e6aed50800000000000000
+      internalID: 6767342561088690961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a4c8c07f4c155e0800000000000000
+      internalID: -1922539000564004329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99433011e406c6450800000000000000
+      internalID: 6083343085079835801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdabeb8a7ecbf0890800000000000000
+      internalID: -7489559952139306273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ee275758d103330800000000000000
+      internalID: 3688480553854758551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 296
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261bea6b1987f7a30800000000000000
+      internalID: 4215220343472566626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f1a4d3a1843a380800000000000000
+      internalID: -8961239556002537694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 222
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4e60be14ad26fb0800000000000000
+      internalID: -4655919088096844571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 222
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0736655fefbec5e60800000000000000
+      internalID: 7952490522299753328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_21
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 222
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbd8e1b351f46290800000000000000
+      internalID: -7897922504731599949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_22
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 222
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b469f8e36e31a140800000000000000
+      internalID: 4729129682547074226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_23
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 222
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0e67732ea5c9820800000000000000
+      internalID: 2926313785523626185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_24
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 222
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b199199a08996df0800000000000000
+      internalID: -186450738273480271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 222
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c13f4ffd9cacc700800000000000000
+      internalID: 562013848107692480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_26
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 228
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374819add95f1ada0800000000000000
+      internalID: -5935192775571962765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f69c22c14431d330800000000000000
+      internalID: 3733823023102072569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_28
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1483edd329357a0800000000000000
+      internalID: -6389602651889712675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_29
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb23fc09546a5d00800000000000000
+      internalID: 962191804029152183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d570ca6b723ce90800000000000000
+      internalID: -7006712929734664893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68263638d76cb7920800000000000000
+      internalID: 2989201020067996294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c121e262e14f910800000000000000
+      internalID: 1870152894596127882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_33
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07608487d38a41ab0800000000000000
+      internalID: -5038217101156284816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_34
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 148
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6136aae9cbc2a30800000000000000
+      internalID: 4191932742824564402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_35
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 158
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36d025f5401d3320800000000000000
+      internalID: 2539203657558185531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0793d58de716bf3a0800000000000000
+      internalID: -6630598828949161616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_37
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bf0f2edd0149790800000000000000
+      internalID: -7524370532247995602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_38
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4185328d890500c00800000000000000
+      internalID: 864779745846581268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_39
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e411a66dbc6feb0800000000000000
+      internalID: -4686334240469463447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_40
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812ae7c653f9612b0800000000000000
+      internalID: -5614124833668423144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_41
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adfded78d41e5be0800000000000000
+      internalID: -1486727906927444567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_42
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 74
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb705a2921847bf0800000000000000
+      internalID: -327494859087643703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_43
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 74
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe88b3c3307a79e0800000000000000
+      internalID: -1622861348084347206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_44
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 106
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016f628cf48a95d60800000000000000
+      internalID: 7879514083675272720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e1624a7ec4095a0800000000000000
+      internalID: -6516624103029989841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_46
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66c1486442928bb0800000000000000
+      internalID: -4935221419140069780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_47
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e3c940f0c264320800000000000000
+      internalID: 2541767482710703661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_48
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1489bbcf396645a0800000000000000
+      internalID: -6537422086359907300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_49
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9499bcf351dfe810800000000000000
+      internalID: 1796884934996628636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_50
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4386deeef01965b0800000000000000
+      internalID: -5374745993175202994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_51
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8082003538e6b9f70800000000000000
+      internalID: 9195064574519289864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_52
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f867924eb233120800000000000000
+      internalID: 2392304086012039017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autotile_tileset_53
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c585baed07c8860800000000000000
+      internalID: 7533520378343742539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

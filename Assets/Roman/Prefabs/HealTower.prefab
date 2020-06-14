@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6134558507340476795}
   - component: {fileID: 6996915037687305798}
   - component: {fileID: 6217188942038977979}
+  - component: {fileID: 597824799144575113}
   m_Layer: 0
   m_Name: Attacker
   m_TagString: Untagged
@@ -85,6 +86,20 @@ MonoBehaviour:
   radius: 3
   healHP: 20
   laser: {fileID: 7140647788864471115}
+--- !u!114 &597824799144575113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2305013510856765753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31fc8ccbb5c1cd34d935881441fbdd75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 0
 --- !u!1 &3304551882770913228
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,9 +113,10 @@ GameObject:
   - component: {fileID: 6513600822283964699}
   - component: {fileID: 4094483699109442714}
   - component: {fileID: 1348890175180946360}
+  - component: {fileID: 5966670561922560100}
   m_Layer: 0
   m_Name: HealTower
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,7 +129,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3304551882770913228}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7850986, y: -1.4798692, z: 0}
+  m_LocalPosition: {x: 2, y: -3, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3059520254724312198}
@@ -211,9 +227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848944b18b1c24272a51ec6b0b8f0d29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHP: 50
-  maxHP: 100
   healthBar: {fileID: 4704031744481554281}
+  healthScript: {fileID: 0}
 --- !u!95 &1348890175180946360
 Animator:
   serializedVersion: 3
@@ -233,6 +248,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5966670561922560100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3304551882770913228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31fc8ccbb5c1cd34d935881441fbdd75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
 --- !u!1 &7344415061465091789
 GameObject:
   m_ObjectHideFlags: 0
