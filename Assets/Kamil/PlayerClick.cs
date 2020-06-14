@@ -102,8 +102,8 @@ public class PlayerClick : MonoBehaviour
         {
             spriteRendererTransparentBlock.sprite = null;
         }
-        
-        
+
+
     }
 
     private void CheckMouseClick(Vector3 objectPos)

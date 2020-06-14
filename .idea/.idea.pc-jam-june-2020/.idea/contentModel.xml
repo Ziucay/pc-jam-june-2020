@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\UnityProjects\pc-jam-june-2020" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Kamil" t="Include">
+          <e p="PlayerClick.cs" t="Include" />
+          <e p="Wall.cs" t="Include" />
+        </e>
+        <e p="Roman" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Attacker" t="Include">
+              <e p="AttackTower.cs" t="Include" />
+              <e p="HealTower.cs" t="Include" />
+              <e p="SlowerTower.cs" t="Include" />
+            </e>
+            <e p="HealthBar.cs" t="Include" />
+            <e p="Laser.cs" t="Include" />
+            <e p="LevelManager.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+            <e p="Tower.cs" t="Include" />
+            <e p="TowerManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="CameraMovement.cs" t="Include" />
+          <e p="Crown.cs" t="Include" />
+          <e p="Enemy" t="Include">
+            <e p="EnemyAttack.cs" t="Include" />
+            <e p="EnemyMovement.cs" t="Include" />
+            <e p="OverlapObjects.cs" t="Include" />
+          </e>
+          <e p="EnemySpawner.cs" t="Include" />
+          <e p="Health.cs" t="Include" />
+          <e p="Workers" t="Include">
+            <e p="ChangeColor.cs" t="Include" />
+            <e p="ClickOnWorker.cs" t="Include" />
+            <e p="FindNewPosition.cs" t="Include" />
+            <e p="WorkerMovement.cs" t="Include" />
+            <e p="WorkerRepair.cs" t="Include" />
+          </e>
+        </e>
+        <e p="UI" t="Include">
+          <e p="DeathScreen.cs" t="Include" />
+          <e p="TopBar.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="pc-jam-june-2020.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Alex\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Alex\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_pc-jam-june-2020.144571620.00" t="ExcludeRecursive" />
+  </component>
+</project>
