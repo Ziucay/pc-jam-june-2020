@@ -35822,6 +35822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Screen: {fileID: 1705760800}
+  Bar: {fileID: 0}
 --- !u!114 &1705760802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36089,7 +36090,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2af77b740ce2a3240935ecd660227939, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5229a94fc882b40489da41d234353c07, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -36344,7 +36345,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2f2219d3fe6132f49968983145666c6c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e8b4cee8aaa0f60459e34df0e7480e16, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

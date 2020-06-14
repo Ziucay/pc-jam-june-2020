@@ -53,7 +53,7 @@ public class EnemyMovement : MonoBehaviour
 
     public void SetTarget(GameObject target)
     {
-        if (target.CompareTag("Ally") || target.CompareTag("Repairable"))
+        if (target.CompareTag("Ally") || target.CompareTag("Repairable") || target.CompareTag("Wall") || target.CompareTag("Tower"))
         {
             _currentTarget = target;
         }

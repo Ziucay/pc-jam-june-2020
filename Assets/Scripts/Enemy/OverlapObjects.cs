@@ -20,7 +20,7 @@ public class OverlapObjects : MonoBehaviour
         List<Collider2D> sortedColliders = new List<Collider2D>();
         for (int i = 0; i < colliders.Length; i++)
         {
-            if (colliders[i].CompareTag("Ally") || colliders[i].CompareTag("Repairable"))
+            if (colliders[i].CompareTag("Ally") || colliders[i].CompareTag("Repairable") || colliders[i].CompareTag("Wall") || colliders[i].CompareTag("Tower") )
             {
                 sortedColliders.Add(colliders[i]);
             } 
